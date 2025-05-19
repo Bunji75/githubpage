@@ -1,0 +1,29 @@
+
+:root[data-theme="light"] {
+  --text: #050a07;
+  --background: #ffffff;
+  --primary: #41c86e;
+  --secondary: #86e9a7;
+  --accent: #49e97e;
+}
+:root[data-theme="dark"] {
+  --text: #f5faf7;
+  --background: #000000;
+  --primary: #37be64;
+  --secondary: #167937;
+  --accent: #16b64b;
+}
+
+.Nav {
+  colour: var(text);
+  background: var(background);
+}
+
+.NavigationList {
+  align-content: centre;
+}
+
+.NavItems {
+  color: var(primary);
+  background: var(primary);
+}
