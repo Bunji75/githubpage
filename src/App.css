@@ -14,7 +14,6 @@
   color: var(--text);
 }
 
-
 :root[data-theme="light"] {
   --text: #050a07;
   --background: #ffffff;

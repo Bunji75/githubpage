@@ -1,11 +1,3 @@
-.Nav  {
-  --text: #f5faf7;
-  --background: #000000;
-  --primary: #37be64;
-  --secondary: #167937;
-  --accent: #16b64b;
-}
-
 .Nav {
   colour: var(--text);
   background: var(--background);
