@@ -1,3 +1,11 @@
+.Nav  {
+  --text: #f5faf7;
+  --background: #000000;
+  --primary: #37be64;
+  --secondary: #167937;
+  --accent: #16b64b;
+}
+
 .Nav {
   colour: var(--text);
   background: var(--background);
@@ -14,12 +22,13 @@
 }
 
 .NavTitle {
+  color: var(--text);
   margin: 0.5rem;
 }
 
 .NavItem {
-  color: var(--primary);
-  background: var(--primary);
+  color: var(--text);
+  background: var(--background);
   margin: 0.5rem;
   display: flex;
   align-items: center;
@@ -28,10 +37,21 @@
 
 .NavItem a:link {
   text-decoration: none;
-  color: var(--primary)
+  color: var(--background);
+  padding: 10px;
+  transition: all 0.2s ease-in;
 }
 
 .NavItem a:visited {
   text-decoration: none;
-  color: var(--primary)
+  color: var(--text)
 }
+
+.NavItem a:hover {
+  background-color: var(--secondary);
+  padding: 1rem;
+  transform: scale(1);
+  transition: all 0.2s ease-out;
+}
+
+

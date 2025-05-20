@@ -1,6 +1,6 @@
 .displayCard {
   justify-content: left;
-  background-color: grey;
+  background-color: var(--secondary);
   display: flex; 
 }
 
