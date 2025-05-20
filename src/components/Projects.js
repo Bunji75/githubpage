@@ -1,4 +1,6 @@
 import "./Projects.css"
+import DisplayCard from "./DisplayCard";
+
 
 function Projects() {
   return (
@@ -8,14 +10,11 @@ function Projects() {
         <h1 className="Header1">
           This is the projects page
         </h1>
-
         <p>
           Edit me and fill me with projects.
         </p>
+        <DisplayCard />
       </header>
-      <body>
-        <ul>This is the first project</ul>
-      </body>
     </div>
   );
 }

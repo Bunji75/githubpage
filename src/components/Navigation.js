@@ -3,26 +3,25 @@ import "./Navigation.css"
 function Navigation() {
   return (
     <div className="Nav">
-      <header className="Nav-header">
-
-        <h1>
-          This is the Nav bar
-        </h1>
+      <nav className="Nav-header">
 
         <ul className="NavigationList">
 
-          <li className="NavItems">
-            <a href="/#/About" className="NavItems">About page</a>
+          <li className="NavTitle">
+            <h1>This is the Nav Bar</h1>
           </li>
-          <li>
+          <li className="NavItem">
+            <a href="/#/About" className="NavItem">About page</a>
+          </li>
+          <li className="NavItem">
             <a href="/">Projects page</a>
           </li>
-          <li>
+          <li className="NavItem" i>
             <a href="/#/Resume">Resume page</a>
           </li>
         </ul>
 
-      </header>
+      </nav>
     </div>
   );
 }

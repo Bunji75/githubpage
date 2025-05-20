@@ -1,30 +1,37 @@
-
-:root[data-theme="light"] {
-  --text: #050a07;
-  --background: #ffffff;
-  --primary: #41c86e;
-  --secondary: #86e9a7;
-  --accent: #49e97e;
-}
-:root[data-theme="dark"] {
-  --text: #f5faf7;
-  --background: #000000;
-  --primary: #37be64;
-  --secondary: #167937;
-  --accent: #16b64b;
-}
-
 .Nav {
-  colour: var(text);
-  background: var(background);
+  colour: var(--text);
+  background: var(--background);
+}
+
+.Nav-header {
 }
 
 .NavigationList {
-  align-content: centre;
-  
+  display: flex;  
+  list-style-type: None;
+  margin: 0;
+  padding-left: 0;
 }
 
-.NavItems {
-  color: var(primary);
-  background: var(primary);
+.NavTitle {
+  margin: 0.5rem;
+}
+
+.NavItem {
+  color: var(--primary);
+  background: var(--primary);
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.NavItem a:link {
+  text-decoration: none;
+  color: var(--primary)
+}
+
+.NavItem a:visited {
+  text-decoration: none;
+  color: var(--primary)
 }

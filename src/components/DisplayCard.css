@@ -1,0 +1,13 @@
+.displayCard {
+  justify-content: left;
+  background-color: grey;
+  display: flex; 
+}
+
+.cardH1 {
+  margin: 2rem 1rem;
+}
+
+.cardP {
+  margin: 2rem 1rem;
+}
