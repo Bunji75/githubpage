@@ -1,13 +1,11 @@
 .Nav {
-  colour: var(--text);
+  color: var(--text);
   background: var(--background);
 }
 
-.Nav-header {
-}
 
 .NavigationList {
-  display: flex;  
+  display: flex;
   list-style-type: None;
   margin: 0;
   padding-left: 0;
@@ -29,7 +27,7 @@
 
 .NavItem a:link {
   text-decoration: none;
-  color: var(--background);
+  color: var(--text);
   padding: 10px;
   transition: all 0.2s ease-in;
 }
@@ -45,5 +43,3 @@
   transform: scale(1);
   transition: all 0.2s ease-out;
 }
-
-

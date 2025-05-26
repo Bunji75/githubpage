@@ -1,8 +1,24 @@
-.displayCard {
-  justify-content: left;
-  background-color: var(--secondary);
-  display: flex; 
-  box-shadow: 0.5rem 0.5rem;
+@media (min-width: 900px) {
+  .displayCard {
+    justify-content: left;
+    background-color: var(--secondary);
+    display: flex;
+    box-shadow: 0.5rem 0.5rem;
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 899px) {
+  .displayCard {
+    justify-content: right;
+    background-color: var(--secondary);
+    display: grid;
+    margin: 0.5rem;
+  }
+
+  .cardImg {
+    width: 99vw;
+  }
 }
 
 .cardH1 {

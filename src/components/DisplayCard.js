@@ -17,7 +17,7 @@ export default function DisplayCard() {
           {projects.description}
         </p>
       </span>
-      <img src={projects.imageUrl} alt="Project image" />
+      <img className="cardImg" src={projects.imageUrl} alt="Project thumbnail" />
     </div>
   );
 }
