@@ -20,7 +20,7 @@ function Projects() {
     new project(2, 'Algorithm Visualiser', 'This was a project that I just started developing.', 'https://placehold.co/600x400'),
     new project(3, 'Online Audio Converter', 'I built this application to learn AWS and some of it\'s different services', 'https://placehold.co/600x400'),
     new project(4, 'Duress Alarm', 'I built a duress alarm, using ElectronJS, that could was configure', 'https://placehold.co/600x400'),
-    new project(5, 'Algorithm Visualiser', 'This was a project that I just started developing.', 'https://placehold.co/600x400'),
+    new project(5, 'C# Pathfinder application', 'A maze solver that has a collection of different obstacles that must be navigated', 'https://placehold.co/600x400'),
   ]
 
   return (
@@ -28,10 +28,10 @@ function Projects() {
       <header className="App-header">
 
         <h1 className="Header1">
-          This is the projects page
+          Welcome to My Projects
         </h1>
         <p>
-          Edit me and fill me with projects.
+          These are some of the projects that I have developed.
         </p>
         {projects.map((project) => (
           <DisplayCard project={project} />

@@ -11,13 +11,13 @@ function Navigation() {
             <h1>This is the Nav Bar</h1>
           </li>
           <li className="NavItem">
-            <a href="/#/About" className="NavItem">About page</a>
+            <a href="githubpages/#/About" className="NavItem">About page</a>
           </li>
           <li className="NavItem">
-            <a href="/">Projects page</a>
+            <a href="githubpages/#/">Projects page</a>
           </li>
           <li className="NavItem" i>
-            <a href="/#/Resume">Resume page</a>
+            <a href="githubpages/#/Resume">Resume page</a>
           </li>
         </ul>
 
