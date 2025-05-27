@@ -1,23 +1,44 @@
 import "./DisplayCard.css"
 
-const projects = {
-  name: 'Portfolio Website',
-  description: 'This was a project that I just started developing.',
-  imageUrl: 'https://placehold.co/600x400',
-}
 
-export default function DisplayCard() {
+export default function DisplayCard(props) {
+
+  // function deconstructProps(props) {
+  //
+  //   let i = props.length;
+  //   let projects = []
+  //   while (i > 0) {
+  //     generator(i, projects)
+  //
+  //   }
+  //   function generator(index, list) {
+  //
+  //     list = props[i]
+  //     return list
+  //   }
+  //
+  // }
+
+  let style;
+
+  if (props.project.projectId % 2) {
+    style = '#167937';
+  }
+  else {
+    style = '#168747';
+  }
+
   return (
-    <div className="displayCard">
+    <div className="displayCard" style={{ background: style }}>
       <span>
         <h2 className="cardH1">
-          {projects.name}
+          {props.project.projectName}
         </h2>
-        <p className="cardP">
-          {projects.description}
+        <p className="cardP" >
+          {props.project.projectDescription}
         </p>
       </span>
-      <img className="cardImg" src={projects.imageUrl} alt="Project thumbnail" />
+      <img className="cardImg" src={props.project.projectImageUrl} alt="Project thumbnail" />
     </div>
   );
 }

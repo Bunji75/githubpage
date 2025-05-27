@@ -21,11 +21,11 @@
   --secondary: #86e9a7;
   --accent: #49e97e;
 }
+
 :root[data-theme="dark"] {
   --text: #f5faf7;
   --background: #000000;
-  --primary: #37be64;
+  --primary: #168747;
   --secondary: #167937;
   --accent: #16b64b;
 }
-
