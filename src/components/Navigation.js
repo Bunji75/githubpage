@@ -11,9 +11,6 @@ function Navigation() {
             <h1>Dayne's Github Page's</h1>
           </li>
           <li className="NavItem">
-            <a href="/githubpage/#/About" className="NavItem">About page</a>
-          </li>
-          <li className="NavItem">
             <a href="/githubpage/#/">Projects page</a>
           </li>
           <li className="NavItem" >
