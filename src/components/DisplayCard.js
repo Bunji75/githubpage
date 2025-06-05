@@ -3,21 +3,6 @@ import "./DisplayCard.css"
 
 export default function DisplayCard(props) {
 
-  // function deconstructProps(props) {
-  //
-  //   let i = props.length;
-  //   let projects = []
-  //   while (i > 0) {
-  //     generator(i, projects)
-  //
-  //   }
-  //   function generator(index, list) {
-  //
-  //     list = props[i]
-  //     return list
-  //   }
-  //
-  // }
 
   let style;
 

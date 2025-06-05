@@ -9,7 +9,10 @@
 
   .cardImg {
     flex: auto;
+    width: 400px
   }
+
+
 }
 
 @media (max-width: 1419px) {
@@ -24,6 +27,7 @@
 
   .cardImg {
     flex: auto;
+    width: 400px;
   }
 }
 
@@ -48,4 +52,6 @@
 
 .cardP {
   margin: 2rem 1rem;
+  width: 600px;
+  text-wrap: auto;
 }
